@@ -1,0 +1,21 @@
+//Jason Buras Problem 8 DNA Pairing
+/*
+Problem 8: DNA Pairing (10 points)
+(Bioinformatics) DNA (DeoxyriboNucleic Acid) is present in nearly all living organisms as the main constituent of chromosomes. It is the carrier of genetic information. DNA typically consists of two separate strands paired together in the form of a double helix. Each strand contains the nucleobases: “A” (adenine), “G” (guanine), “C” (cytosine) and “T” (thymine). Hydrogen bonds hold the two strands of DNA together, where base A always pairs with T and G always pairs with C. Write a program that takes in a segment strand of a DNA sequence and outputs it’s complementary strand.
+Facts
+● Scanner has a method useDelimiter that alters the break point for pulling text from input stream. To grab 1 letter at a time, use empty string as delimiter i.e. useDelimiter("")
+● Scanner has a method that returns a boolean indicating whether a next integer exists in its inputstream ( hasNext() )
+● Scanner objects can be initialized to to scan String data as input.
+Input
+The first line is the number of test cases. Then each additional line contains a DNA sequence of nucleobases that comprise a segment of one strand of DNA. Bases include "A", "C", "G", "T"
+Output
+Your program must display the original sequence of a DNA stand along with it’s appropriately matched compliment pair. 
+AGAATTGCATAG
+TCTTAACGTATC
+
+GGATTCACATAG
+CCTAAGTGTATC
+
+ATGCATGCATGC
+TACGTACGTACG
+*/

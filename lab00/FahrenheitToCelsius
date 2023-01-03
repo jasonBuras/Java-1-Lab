@@ -1,0 +1,3 @@
+//Jason Buras Problem 7: FahrenheitToCelsius
+//import section
+import java.util.Scanner;
